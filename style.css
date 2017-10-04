@@ -1,0 +1,378 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; 
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  
+    display: block; 
+}
+
+body {
+  
+    line-height: 1; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 微軟正黑體;
+}
+
+ol, ul {
+  
+    list-style: none; 
+}
+
+blockquote, q {
+  
+    quotes: none; 
+}
+
+blockquote:before, 
+blockquote:after,
+q:before, q:after {
+  
+    content: '';
+    content: none; 
+}
+
+table {
+  
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* *, *:before, *:after {
+  
+    box-sizing: border-box;
+    font-family: PingFangTC-Regular; 
+}*/
+
+a { text-decoration: none; }
+
+.header {
+  
+    background-image: url("../img/Hero.png");
+    background-size: cover ;
+    background-position: bottom center;
+    height: 380px;
+
+}
+
+.header .title {
+    
+    color: white;
+    font-size: 48px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 2em;
+}
+  
+.header .toSelect {
+    
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    color: black;
+    font-size: 18px; 
+    text-align-last: center; 
+}
+    
+.header .toSelect:hover {
+      
+    cursor: pointer; 
+}
+
+.hot-area h2 {
+  
+  padding-top: 1.5em;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;  
+}
+
+.hot-area {
+  
+  position: relative;
+  top: -35px;   
+  margin: 0 auto;
+  width: 60%;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.hot-area ul {
+
+  margin: 2em auto;
+  text-align: center;
+    
+}
+    
+.hot-area ul li {
+
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 20px; 
+}
+
+.hot-area ul li a {
+        
+  width: 120px;
+  display: inline-block;
+  height: 40px;
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: bold; 
+}
+    
+.hot-area ul .label1 {
+      
+  background-color: #8A82CC; 
+}
+.hot-area ul .label1:hover {
+        
+  background-color: #9b94d3; 
+  color: red;
+}
+
+.hot-area ul .label2 {
+      
+  background-color: #FFA782; 
+}
+.hot-area ul .label2:hover {
+        
+  background-color: #ffb99c;
+}
+    
+.hot-area ul .label3 {
+      
+  background-color: #F5D105; 
+}
+.hot-area ul .label3:hover {
+        
+  background-color: #fad919;
+}
+
+.hot-area ul .label4 {
+  
+  background-color: #559AC8; 
+}
+.hot-area ul .label4:hover {
+
+  background-color: #68a5ce; 
+}
+
+.content .content-title {
+
+  display: inline-block;
+
+  color: #007FFF;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.content .choose_tabs .tabs{
+
+  margin-top: 2em;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-40%);
+}
+.content .choose_tabs .tabs li {
+  
+  float: left;
+  width: 30%;
+  height: 2em;
+  margin: 0 5% 3% 5%;
+  padding-top: 1em; 
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.content .choose_tabs .tabs li:hover{
+
+  cursor: pointer;
+}
+
+.content .choose_tabs .tabs li a{
+
+  color: black;
+}
+
+.content .choose_tabs .tabs li a:hover{
+
+  color: red;
+}
+
+.content .viewPoint{
+
+  display: inline-block;
+  width: 30%;
+  margin: 20px 0;
+  margin-left: 30px;
+  border: 1px solid silver;
+  border-radius: 7px;
+}
+
+.content .viewPoint .innerFrame{
+  
+    margin: 5px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.content .thumbnail {
+    
+  text-decoration: none;
+}
+
+.content .thumbnail .photo {
+     
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.content-img-title {
+  
+  color: white;
+  position: relative;
+  top: 150px;
+  background: rgba(73, 73, 73, 0.5);
+  height: 50px;
+}
+  
+.content-img-title h3 {
+  
+  float: left;
+  padding-top: 16px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+  
+.content-img-title span {
+    
+  float: right; 
+  padding-top: 17px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.content-info span {
+  
+  display: block;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 7px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+.content-info .content-info-1:before {
+  
+  display: inline-block;
+  content: "";
+  background: url("../img/clock_icon.png") no-repeat 0 0;
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  margin: 1px 5px 1px 10px;
+  position: relative;
+  top: 3px;
+
+  /*content: url("../img/clock_icon.png");*/
+}
+
+.content-info .content-info-2:before {
+
+  display: inline-block;
+  content: "";
+  background: url("../img/favorite_place_icon.png") no-repeat 0 0;
+  background-size: 100%;
+  width: 16px;
+  height: 23px;
+  margin: 1px 5px 1px 10px;
+  position: relative;
+  top: 3px;
+}
+
+.content-info-3{
+
+  margin-bottom: 10px;
+}
+
+.content-info .content-info-3:before {
+   
+  display: inline-block;
+  content: "";
+  background: url("../img/phone_icon.png") no-repeat 0 0;
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  margin: 1px 5px 1px 10px;
+  position: relative;
+  top: 3px; 
+}
+  
+.fotter {
+    
+  clear: both;
+  height: 80px;
+  padding: 0;
+  margin: 0 auto; 
+  background-color: #559AC8;
+  text-align: center;
+}
+
+.fotter h3 {
+  
+  display: inline-block;
+  margin-top: 1.5em;
+  font-size: 14px;
+  color: white; 
+}
+    
+.fotter a {
+  
+  display: block;
+  margin-top: 1em;
+  text-decoration: none;
+  font-size: 12px;
+  color: #FFD366;
+}
+
+#map {
+
+  clear: both;
+  height: 600px;
+  width: 800px;
+  margin: 3em auto;
+  margin-top: 5em;  
+}
