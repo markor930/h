@@ -1,5 +1,4 @@
 {
-help: "http://data.kcg.gov.tw/api/3/action/help_show?name=datastore_search",
 success: true,
 result: {
 resource_id: "92290ee5-6e61-456f-80c0-249eae2fcc97",
