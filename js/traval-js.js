@@ -1,6 +1,6 @@
 
 //高雄市政府開放資料平台-旅遊景點
-var url = "https://hotman0901.github.io/travel/json/datastore_search.json";
+var url = "https://gist.githubusercontent.com/koshuang/e36fcad626902788a1e8a1febe3e456a/raw/623e279279f357f035a03ff7d8f7042bbda8d1e3/datastore_search.json";
 
 var selectAreaObj = document.querySelector(".toSelect");
 var hotList = document.querySelector(".hot-area-list");
